@@ -25,6 +25,8 @@ object KafkaProducerExample {
     producer.send(data)
 
     println("done")
+    
+    println("changes done by other")
   }
 
 }
