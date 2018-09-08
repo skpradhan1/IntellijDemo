@@ -24,6 +24,7 @@ object KafkaProducerExample {
     val data = new ProducerRecord[String,String]("kafka-testing","key1", "value1")
     producer.send(data)
 
+    println("done")
   }
 
 }
